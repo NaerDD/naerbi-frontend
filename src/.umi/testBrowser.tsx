@@ -3,15 +3,15 @@
 // DO NOT CHANGE IT MANUALLY!
 import React, { useEffect, useState } from 'react';
 import { ApplyPluginsType } from 'umi';
-import { renderClient, RenderClientOpts } from 'F:/project/naerbifrontend/node_modules/@umijs/renderer-react';
+import { renderClient, RenderClientOpts } from 'F:/project/naerbi-frontend/node_modules/@umijs/renderer-react';
 import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
 
-import 'F:/project/naerbifrontend/src/global.less';
-import 'F:/project/naerbifrontend/src/global.tsx';
+import 'F:/project/naerbi-frontend/src/global.less';
+import 'F:/project/naerbi-frontend/src/global.tsx';
 import 'antd/dist/reset.css';
 const publicPath = '/';
 const runtimePublicPath = false;

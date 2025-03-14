@@ -73,7 +73,7 @@ export default defineConfig({
    * @name layout 插件
    * @doc https://umijs.org/docs/max/layout-menu
    */
-  title: 'Ant Design Pro',
+  title: 'Naer智能 BI',
   layout: {
     locale: true,
     ...defaultSettings,
@@ -129,9 +129,10 @@ export default defineConfig({
   openAPI: [
     {
       requestLibPath: "import { request } from '@umijs/max'",
+      projectName: 'naerbi',
       // 或者使用在线的版本
-      // schemaPath: "https://gw.alipayobjects.com/os/antfincdn/M%24jrzTTYJN/oneapi.json"
-      schemaPath: join(__dirname, 'oneapi.json'),
+      schemaPath: "http://localhost:8108/api/v2/api-docs",
+      // schemaPath: join(__dirname, 'oneapi.json'),
       mock: false,
     },
     {
